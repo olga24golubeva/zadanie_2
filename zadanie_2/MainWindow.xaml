@@ -1,0 +1,19 @@
+﻿<Window x:Class="zadanie_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="23*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="355,10,0,0" TextWrapping="Wrap" Text="Вычисление корней" VerticalAlignment="Top" Height="55" Width="400" FontSize="36"/>
+        <Button Content="Квадратное уравнение" HorizontalAlignment="Left" Margin="95,79.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" Height="200" FontSize="18" Click="Button_Click"/>
+        <Button Content="Линейное уравнение" HorizontalAlignment="Left" Margin="475,79.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" Height="200" FontSize="18" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
